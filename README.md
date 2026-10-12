@@ -12,20 +12,49 @@ This GitHub portfolio showcases our projects, progress and future development.
 
 ## 💻 Our Projects
 
-### 🎬 Realm DVD Creator
+## Realm DVD Creator
+
 **Status: In Development**
 
-A Windows desktop application for DVD creation, video conversion and custom DVD menu design.
+Realm DVD Creator is an offline-first Windows desktop application for preparing DVD-Video projects, calculating disc capacity, designing navigation menus and producing validated DVD-Video output from user-owned, unprotected media.
 
-**Features being developed and tested:**
-- DVD-Video authoring and ISO creation
-- Customisable DVD menus
-- Multiple movie support
-- Video and audio conversion
-- Smart Disc Fit technology
-- Future Blu-ray and advanced video capabilities
+### Implemented and under active testing
+
+- DVD-Video project workflow with PAL-oriented conversion, authoring, ISO creation and validation.
+- Smart Disc Fit capacity planning with per-title bitrate and disc-usage estimates.
+- Multi-movie DVD collection planning and authoring workflow.
+- Interactive drag-and-drop DVD menu designer with editable layouts, safe-area guides, custom backgrounds, chapter layouts, edit mode and visual preview mode.
+- Local movie metadata, chapter, audio and subtitle inspection using bundled media tools.
+- Build and verification controls that remain unavailable until the required project inputs and validation state are present.
+- Consent-based update screen with verified local update-package staging; private-repository credentials are not stored in the application.
+
+### Testing status
+
+Automated regression tests and synthetic-media integration exercises cover application startup, media probing, menu-background rendering and authoring, chapter validation, Smart Disc Fit calculations and multi-movie planning. Menu artwork and edit/preview states shown below were captured from the installed Windows application using synthetic or project-owned assets.
+
+Physical disc burning, standalone DVD-player playback and PlayStation 5 playback remain hardware acceptance tests. They are not presented here as verified compatibility claims.
+
+The source code remains in a private repository while development and acceptance testing continue. This public repository contains showcase documentation and screenshots only.
 
 **Public Release Date: TBA — Not Yet Announced**
+
+### Screenshots
+
+| Dashboard | Smart Disc Fit |
+| --- | --- |
+| ![Realm DVD Creator dashboard](assets/realm-dvd-creator/01-dashboard.png) | ![Smart Disc Fit](assets/realm-dvd-creator/02-smart-disc-fit.png) |
+
+| Multi-movie DVD workflow | Custom menu background |
+| --- | --- |
+| ![Multi-movie DVD workflow](assets/realm-dvd-creator/03-multi-movie-workflow.png) | ![Menu Designer with custom background](assets/realm-dvd-creator/04-menu-designer-custom-background.png) |
+
+| Drag-and-drop edit mode | Menu preview mode |
+| --- | --- |
+| ![Menu Designer edit mode](assets/realm-dvd-creator/05-menu-designer-edit-mode.png) | ![Menu Designer preview mode](assets/realm-dvd-creator/06-menu-designer-preview-mode.png) |
+
+| Updates | Build and Verify |
+| --- | --- |
+| ![Realm DVD Creator updates screen](assets/realm-dvd-creator/07-updates.png) | ![Build and Verify screen](assets/realm-dvd-creator/08-build-verify.png) |
 
 ### 🎮 Willowbrook Games
 **Status: In Development**
