@@ -57,6 +57,46 @@ The source code remains in a private repository while development and acceptance
 | --- | --- |
 | ![Realm DVD Creator updates screen](assets/realm-dvd-creator/07-updates.png) | ![Build and Verify screen](assets/realm-dvd-creator/08-build-verify.png) |
 
+## REALM HUB
+
+### *Your PC. Your Software. Your Realm.*
+
+**Status: IN DEVELOPMENT**
+
+Realm Hub is a native Windows desktop application designed as the central home for Realm Creative Labs software and live PC health information. It combines a privacy-conscious application launcher, responsive hardware monitoring, desktop widgets, system-tray controls and persistent visual personalisation in one dashboard.
+
+### Current development features
+
+- Combined PC-health dashboard with real CPU, GPU, RAM, VRAM, disk, network and uptime readings where Windows and the hardware expose them.
+- Bounded live CPU, GPU, memory, network and disk history graphs with session peaks.
+- CPU/GPU temperatures, storage information and fan readings where supported; unavailable sensors are clearly labelled rather than simulated.
+- Realm application catalogue with genuine installed-state detection, custom executable locations and launch support.
+- Compact, Standard and Advanced desktop-widget layouts backed by the same shared monitoring service.
+- Windows system-tray integration, minimise-to-tray behavior and single-instance window restoration.
+- Realm Neon, Realm Professional, Realm Cyber, Realm Carbon and Realm Minimal themes.
+- Persistent application-tile ordering, favourites, dashboard section visibility and named dashboard layouts.
+- Local settings with no account requirement, telemetry or cloud upload by default.
+
+Realm Hub remains in active private development. Major dashboard-section reordering, resizable dashboard cards, complete custom-theme management and additional hardware/configuration acceptance tests are still being completed. Its private source code is not published in this showcase.
+
+**Public Release Date: TBA — Not Yet Announced**
+
+### Screenshots
+
+| Combined dashboard | Live PC monitor |
+| --- | --- |
+| ![Realm Hub combined dashboard](assets/realm-hub/realm-hub-dashboard.png) | ![Realm Hub live PC monitor](assets/realm-hub/realm-hub-pc-monitor.png) |
+
+| Realm application launcher | Desktop widget |
+| --- | --- |
+| ![Realm Hub application launcher](assets/realm-hub/realm-hub-app-launcher.png) | ![Realm Hub desktop widget](assets/realm-hub/realm-hub-desktop-widget.png) |
+
+| Realm Neon | Realm Professional |
+| --- | --- |
+| ![Realm Hub Neon theme](assets/realm-hub/realm-hub-neon-theme.png) | ![Realm Hub Professional theme](assets/realm-hub/realm-hub-professional-theme.png) |
+
+![Realm Hub Theme Studio](assets/realm-hub/realm-hub-theme-studio.png)
+
 ### 🎮 Willowbrook Games
 **Status: In Development**
 
