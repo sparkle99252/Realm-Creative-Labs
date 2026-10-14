@@ -18,23 +18,24 @@ This GitHub portfolio showcases our projects, progress and future development.
 
 Realm DVD Creator is an offline-first Windows desktop application for preparing DVD-Video projects, calculating disc capacity, designing navigation menus and producing validated DVD-Video output from user-owned, unprotected media.
 
-### Implemented and under active testing
+### Implemented
 
-- DVD-Video project workflow with PAL-oriented conversion, authoring, ISO creation and validation.
-- Smart Disc Fit capacity planning with per-title bitrate and disc-usage estimates.
-- Multi-movie DVD collection planning and authoring workflow.
-- Interactive drag-and-drop DVD menu designer with editable layouts, safe-area guides, custom backgrounds, chapter layouts, edit mode and visual preview mode.
-- Local movie metadata, chapter, audio and subtitle inspection using bundled media tools.
-- Build and verification controls that remain unavailable until the required project inputs and validation state are present.
-- Consent-based update screen with verified local update-package staging; private-repository credentials are not stored in the application.
+- PAL DVD-Video conversion, menu authoring, `VIDEO_TS` generation, ISO creation, validation, IMAPI2 burning and finalisation.
+- Smart Disc Fit planning with per-title bitrate allocation, capacity checks and multi-movie DVD collections.
+- Menu Designer Pro with a resizable three-panel workspace, direct drag/resize editing, editable button text and styling, stock or custom backgrounds, animated backgrounds, safe-area guides, Undo/Redo and preview/test mode.
+- Working chapter, audio and subtitle menu generation with automatic pagination and PAL-safe highlight validation.
+- Configurable ISO, authored-project and temporary-workspace destinations, disk-space checks, no-overwrite protection and safe application-owned workspace cleanup.
+- Local movie, chapter, audio and subtitle inspection using bundled media tools; processing remains offline by default.
+- Staged build progress, diagnostics and verification gates that keep Burn unavailable until the authored output and ISO pass validation.
+- Consent-based update checks and verified local update-package staging; private-repository credentials are not stored in the application.
 
 ### Testing status
 
-Automated regression tests and synthetic-media integration exercises cover application startup, media probing, menu-background rendering and authoring, chapter validation, Smart Disc Fit calculations and multi-movie planning. Menu artwork and edit/preview states shown below were captured from the installed Windows application using synthetic or project-owned assets.
+The current development checkpoint passes 83 core regression checks. Synthetic-media integration has exercised application startup, media probing, custom and animated menu rendering, chapter/audio/subtitle pagination, PAL button bounds, Smart Disc Fit, multi-movie authoring, `VIDEO_TS`, ISO creation and ISO validation. Menu artwork and edit/preview states shown below were captured from the installed Windows application using synthetic or project-owned assets.
 
-Physical disc burning, standalone DVD-player playback and PlayStation 5 playback remain hardware acceptance tests. They are not presented here as verified compatibility claims.
+An earlier tested Realm DVD Creator build successfully burned and finalised a physical DVD+R. That disc played in VLC, on a separate standalone DVD player and on a disc-equipped PlayStation 5; PS5 menu and chapter navigation also passed. These are preserved historical hardware-acceptance results, not a claim that every later maintenance build or every player/media combination has been retested. The newer automatic movie-title volume label still requires a fresh physical burn/eject/reinsert check in Windows File Explorer.
 
-The source code remains in a private repository while development and acceptance testing continue. This public repository contains showcase documentation and screenshots only.
+The source code remains in a private repository while development and acceptance testing continue. The primary development workspace has moved to a dedicated development drive, while installed software and large DVD output use separate locations. This public repository contains showcase documentation and approved screenshots only; it does not publish source code, user media, diagnostic logs or private paths.
 
 **Public Release Date: TBA — Not Yet Announced**
 
