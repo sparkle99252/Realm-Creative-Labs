@@ -61,7 +61,7 @@ The source code remains in a private repository while development and acceptance
 
 ### *Your PC. Your Software. Your Realm.*
 
-**Status: IN DEVELOPMENT**
+**Status: v0.2.0 IN DEVELOPMENT**
 
 Realm Hub is a native Windows desktop application designed as the central home for Realm Creative Labs software and live PC health information. It combines a privacy-conscious application launcher, responsive hardware monitoring, desktop widgets, system-tray controls and persistent visual personalisation in one dashboard.
 
@@ -76,6 +76,15 @@ Realm Hub is a native Windows desktop application designed as the central home f
 - Realm Neon, Realm Professional, Realm Cyber, Realm Carbon and Realm Minimal themes.
 - Persistent application-tile ordering, favourites, dashboard section visibility and named dashboard layouts.
 - Local settings with no account requirement, telemetry or cloud upload by default.
+- Built-in Realm PC Suite with guarded Smart Cleaner, read-only Windows diagnostics, genuine installed-driver inventory, reversible startup management, storage reporting and measured network diagnostics.
+- Responsive Smart Cleaner with protected locations, cancellation, 250-row virtualised pages, full file review and explicit confirmation before any supported cache file can be removed.
+- Theme-aware tables and dialogs with readable headers, rows, selection and long-path inspection in Realm Neon, Realm Carbon and Realm Professional.
+
+### v0.2.0 verified progress
+
+The v0.2.0 private-development checkpoint passed a clean Windows Release build and 24/24 automated acceptance tests. Real isolated desktop acceptance exercised a 20,000-file disposable Smart Cleaner scan, active cancellation, one-click selection, Select All/None, full review, exact deletion of one disposable test file and safe handling of a deliberately locked disposable file. The same acceptance session read genuine Windows driver inventory, ran read-only Windows Update/Event Log diagnostics and refreshed mounted-drive capacity without the previous Storage binding error.
+
+Unsupported CPU temperature, fan and storage-health sensors remain labelled **Not available** when the normal non-elevated provider cannot supply them. Administrator repairs, driver installation, router changes and cleaning of real user files were not performed. ASTRA remains disconnected with zero action authority. The currently installed build has not been replaced by v0.2.0.
 
 Realm Hub remains in active private development. Major dashboard-section reordering, resizable dashboard cards, complete custom-theme management and additional hardware/configuration acceptance tests are still being completed. Its private source code is not published in this showcase.
 
@@ -96,6 +105,18 @@ Realm Hub remains in active private development. Major dashboard-section reorder
 | ![Realm Hub Neon theme](assets/realm-hub/realm-hub-neon-theme.png) | ![Realm Hub Professional theme](assets/realm-hub/realm-hub-professional-theme.png) |
 
 ![Realm Hub Theme Studio](assets/realm-hub/realm-hub-theme-studio.png)
+
+### Realm Hub v0.2.0 development screenshots
+
+These are real Windows captures from the isolated v0.2.0 acceptance build. Smart Cleaner used only a neutral disposable test folder; the images contain no personal filenames, user-profile paths, settings, credentials or private source. The Storage page was verified separately, but its hardware screenshot is intentionally not published because it contains local drive labels.
+
+| Responsive Smart Cleaner | Full cleanup review |
+| --- | --- |
+| ![Realm Hub v0.2.0 Smart Cleaner showing readable virtualised results](assets/realm-hub/realm-hub-v020-smart-cleaner.png) | ![Realm Hub v0.2.0 Smart Cleaner review window showing one disposable test file](assets/realm-hub/realm-hub-v020-cleaner-review.png) |
+
+| Safe locked-file result | Genuine Windows driver inventory |
+| --- | --- |
+| ![Realm Hub v0.2.0 safely skipping a locked disposable test file](assets/realm-hub/realm-hub-v020-locked-result.png) | ![Realm Hub v0.2.0 Driver Centre with readable themed Windows inventory](assets/realm-hub/realm-hub-v020-driver-centre.png) |
 
 ### 🎮 Willowbrook Games
 **Status: In Development**
