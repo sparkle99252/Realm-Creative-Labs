@@ -118,6 +118,63 @@ These are real Windows captures from the isolated v0.2.0 acceptance build. Smart
 | --- | --- |
 | ![Realm Hub v0.2.0 safely skipping a locked disposable test file](assets/realm-hub/realm-hub-v020-locked-result.png) | ![Realm Hub v0.2.0 Driver Centre with readable themed Windows inventory](assets/realm-hub/realm-hub-v020-driver-centre.png) |
 
+## Realm Book Creator — Your Story, Your Voice
+
+**Application: Realm Book Creator**<br>
+**Version: v0.1.0**<br>
+**Status: PRIVATE DEVELOPMENT**<br>
+**Public Release: TBA — Not Yet Announced**
+
+*A helping hand for writers, from the first idea to the finished book.*
+
+Realm Book Creator is an AI-assisted book-writing and publishing application being developed by Realm Creative Labs. It is designed for aspiring authors, independent writers, fantasy authors and anyone who has a story to tell but sometimes struggles to find the next words.
+
+Some writers have amazing ideas but find it difficult to turn them into a manuscript. Others run out of inspiration halfway through a chapter, get stuck developing characters, lose track of their fictional worlds or find editing and formatting overwhelming. Realm Book Creator aims to take some of that pressure away and help writers keep moving forward without taking control of their work.
+
+### Available in v0.1.0
+
+- Create and reopen private local book projects.
+- Write, edit, add, remove, reorder and organise chapters.
+- Automatically save manuscript progress.
+- Track chapter and whole-book word counts and writing targets.
+- Use native Windows spellchecking and standard editor undo/redo.
+- Review repeated-word, spacing and basic UK/US spelling suggestions.
+- Accept or reject each writing suggestion individually.
+- Keep basic Story Bible records for characters and locations.
+- Export an ordered plain-text manuscript without overwriting an existing export.
+
+The current writing guidance is offline. Version v0.1.0 does **not** include a connected generative AI model and does not send manuscript text to an AI service.
+
+### IN DEVELOPMENT / PLANNED
+
+- AI story brainstorming and idea generation.
+- Help overcoming writer's block.
+- Suggestions for the next scene, dialogue and plot developments.
+- Full book drafting from author-approved outlines.
+- Advanced grammar and punctuation checking.
+- Rewriting suggestions that preserve the author's voice.
+- Fantasy worldbuilding, lore, timelines and character relationships.
+- Book-series continuity checking.
+- Professional ebook and paperback formatting.
+- Amazon KDP manuscript and cover validation.
+- Kindle EPUB and print-ready PDF generation.
+- Accurate printed page-count checking.
+- Amazon book descriptions, keywords, categories and metadata assistance.
+- Guided publishing workflows for Amazon and other retailers.
+- Future VectorCraft and EffectCraft artwork integration, subject to verified interfaces.
+
+### Supporting writers, not replacing them
+
+**Realm Book Creator is designed to support writers, not replace them.**
+
+When a writer runs out of ideas or gets stuck on a chapter, the long-term goal is to help them find inspiration, explore new directions and finish their stories. The author remains in control of every chapter, correction and publishing decision.
+
+Version v0.1.0 does not provide full AI book generation, direct Kindle publishing, professional EPUB or print-ready PDF output, or automatic retailer submission. Nothing is published automatically.
+
+### Screenshot
+
+![Realm Book Creator v0.1.0 Writing Studio](assets/realm-book-creator/01-writing-studio.png)
+
 ### 🎮 Willowbrook Games
 **Status: In Development**
 
