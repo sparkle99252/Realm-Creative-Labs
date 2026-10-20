@@ -14,7 +14,7 @@ This GitHub portfolio showcases our projects, progress and future development.
 
 ## Realm DVD Creator
 
-**Status: In Development**
+**Status: v1.0 Alpha — In Development**
 
 Realm DVD Creator is an offline-first Windows desktop application for preparing DVD-Video projects, calculating disc capacity, designing navigation menus and producing validated DVD-Video output from user-owned, unprotected media.
 
@@ -27,11 +27,12 @@ Realm DVD Creator is an offline-first Windows desktop application for preparing 
 - Configurable ISO, authored-project and temporary-workspace destinations, disk-space checks, no-overwrite protection and safe application-owned workspace cleanup.
 - Local movie, chapter, audio and subtitle inspection using bundled media tools; processing remains offline by default.
 - Staged build progress, diagnostics and verification gates that keep Burn unavailable until the authored output and ISO pass validation.
+- Genuine aspect-preserving live source preview during encoding, generated-menu preview during authoring, and real FFmpeg timestamp, frame, FPS, speed, stage-progress and ETA telemetry.
 - Consent-based update checks and verified local update-package staging; private-repository credentials are not stored in the application.
 
 ### Testing status
 
-The current development checkpoint passes 83 core regression checks. Synthetic-media integration has exercised application startup, media probing, custom and animated menu rendering, chapter/audio/subtitle pagination, PAL button bounds, Smart Disc Fit, multi-movie authoring, `VIDEO_TS`, ISO creation and ISO validation. Menu artwork and edit/preview states shown below were captured from the installed Windows application using synthetic or project-owned assets.
+The v1.0 Alpha development checkpoint passes 105 core regression checks and its self-contained Windows x64 build launches responsively with the expected `1.0.0-alpha` product version. Synthetic-media integration has exercised application startup, media probing, custom and animated menu rendering, chapter/audio/subtitle pagination, PAL button bounds, Smart Disc Fit, multi-movie authoring, `VIDEO_TS`, ISO creation and ISO validation. Menu artwork and edit/preview states shown below were captured from the installed Windows application using synthetic or project-owned assets.
 
 An earlier tested Realm DVD Creator build successfully burned and finalised a physical DVD+R. That disc played in VLC, on a separate standalone DVD player and on a disc-equipped PlayStation 5; PS5 menu and chapter navigation also passed. These are preserved historical hardware-acceptance results, not a claim that every later maintenance build or every player/media combination has been retested. The newer automatic movie-title volume label still requires a fresh physical burn/eject/reinsert check in Windows File Explorer.
 
