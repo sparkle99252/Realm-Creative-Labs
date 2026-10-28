@@ -176,6 +176,34 @@ Version v0.1.0 does not provide full AI book generation, direct Kindle publishin
 
 ![Realm Book Creator v0.1.0 Writing Studio](assets/realm-book-creator/01-writing-studio.png)
 
+## Realm Business Tracker & Realm TCG Stock Manager
+
+**Applications: Realm Business Tracker (Windows) and Realm TCG Stock Manager (Android)**<br>
+**Status: PRIVATE DEVELOPMENT — phone-to-PC sync in testing**<br>
+**Public Release: TBA — Not Yet Announced**
+
+*One stock list for the shop, on the PC and in the pocket.*
+
+Realm Business Tracker is an offline-first Windows desktop app for a small trading-card business: products, stock, sales, expenses and profit reports in one local database. Its companion, Realm TCG Stock Manager, runs on an Android phone for scanning, selling and checking stock away from the desk. The aim is for both to share one catalogue, permanent barcodes and a single stock ledger.
+
+### Current development features
+
+- Local-only Wi-Fi sync between the phone and the PC: no cloud account, no subscription, nothing leaves the home network.
+- Secure pairing with an 8-digit one-time code, plus a certificate-fingerprint check on both screens before the phone trusts the PC.
+- Every record has a permanent ID, so repeating a sync can never duplicate a sale or add stock twice.
+- Stock is a ledger of changes rather than overwritten totals, and anything uncertain is flagged for review instead of silently overwriting newer records.
+- A separate, clearly labelled test copy of the Windows app that refuses to start unless it is confirmed to be using a fake-data test database.
+
+### Testing status
+
+The Windows build passes its automated checks on GitHub (28 core and 9 application tests), and the Android build passes its checks and an emulator run. A home Wi-Fi test with fake products on a real PC and phone paired successfully; a phone sale reached the PC exactly once, and stock added on the PC reached the phone. Sales made on the PC do not yet change stock on the phone, and remote access and TikTok Shop integration have not been started. The live business database was not touched by any test, and real stock has not been entered. Source code remains in private repositories.
+
+### Screenshot
+
+Windows test copy showing clearly labelled fake test products only:
+
+![Realm Business Tracker test copy showing fake products](assets/realm-business-tracker/01-windows-products.png)
+
 ### 🎮 Willowbrook Games
 **Status: In Development**
 
