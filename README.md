@@ -226,7 +226,7 @@ All of these are in development / alpha. None has been released. The work below 
 - **Realm Business Tracker** (Windows) and **Realm TCG Stock Manager** (Android): stock apps for a small trading-card business. New work adds permanent RTCGC barcodes and phone-PC sync with a resolve button for conflicts.
 - **Realm DVD Creator** (Windows): in alpha (v1.0.2-alpha line, not released). Now on its main branch: Blu-ray and 4K smart disc fit, ISO verification and a source pre-check.
 - **Realm Hub** (Windows): in development (v0.2.0 private checkpoint, not a public release). Now on its main branch: PC Monitor, dashboard layouts, a Realm apps strip and early PC Suite tools.
-- **Realm Control Tower** (Windows): v0.1 alpha, in development. Now on its main branch: application discovery and management, release readiness, issue tracking and a backup warning.
+- **Realm Control Tower** (Windows): v0.1.2-alpha, in development. Now on its main branch: application discovery and management, release readiness, issue tracking, a backup warning, a Software Updates screen and an unsigned test installer built by the automated checks. Still alpha: only automated build checks so far, not tested on real devices, not released, and the installer is unsigned and not yet downloadable.
 
 ## 🧪 Development Updates
 
