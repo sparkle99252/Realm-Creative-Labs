@@ -219,6 +219,15 @@ Our personal AI assistant project, designed to support intelligent automation, s
 
 A custom Discord bot project, with further information to be shared as development progresses.
 
+## Realm software: latest development work
+
+All of these are in development / alpha. None has been released. The work below has passed automated build checks only; it has not been tested on real devices or hardware.
+
+- **Realm Business Tracker** (Windows) and **Realm TCG Stock Manager** (Android): stock apps for a small trading-card business. New work adds permanent RTCGC barcodes and phone-PC sync with a resolve button for conflicts.
+- **Realm DVD Creator** (Windows): in alpha. New work adds multi-job DVD handling, ISO verification and a source pre-check.
+- **Realm Hub** (Windows): in development. New work adds a PC Monitor, dashboard layouts and a Realm apps strip.
+- **Realm Control Tower** (Windows): in development. New work adds release readiness, issue tracking and a backup warning.
+
 ## 🧪 Development Updates
 
 Projects featured here may still be experimental, under development or undergoing testing.
