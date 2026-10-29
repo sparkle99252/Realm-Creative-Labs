@@ -87,6 +87,8 @@ The v0.2.0 private-development checkpoint passed a clean Windows Release build a
 
 Unsupported CPU temperature, fan and storage-health sensors remain labelled **Not available** when the normal non-elevated provider cannot supply them. Administrator repairs, driver installation, router changes and cleaning of real user files were not performed. ASTRA remains disconnected with zero action authority. The currently installed build has not been replaced by v0.2.0.
 
+Two optional extras are in early development on the private branch, both off by default and not yet tried on a real PC: Mochi, a small pixel-cat desktop pet, and a Realm Town view showing an animated dashboard of helper agents.
+
 Realm Hub remains in active private development. Major dashboard-section reordering, resizable dashboard cards, complete custom-theme management and additional hardware/configuration acceptance tests are still being completed. Its private source code is not published in this showcase.
 
 **Public Release Date: TBA — Not Yet Announced**
