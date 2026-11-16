@@ -199,6 +199,7 @@ Realm Business Tracker is an offline-first Windows desktop app for a small tradi
 - A row that should never have existed, such as a typo, a duplicate or a test entry, can now be deleted on the Windows app. Cancelling a genuine sale remains a separate action, and deletions are written to an audit log.
 - Readability work across the Windows Quick Entry screens: dropdown lists and the labels beside each box now set their own colours, so they stay readable whatever the Windows theme is set to.
 - The Android app's payment method list now covers Cash, Card, Bank transfer, PayPal, TikTok Shop, eBay, Vinted and Other, and the same list is used on the main sale screen, the TikTok helper screen and the car boot screen.
+- The Windows app's Universal Credit page now shows, at a glance, which assessment period is current and whether it has already been recorded, so the owner no longer has to work it out by comparing dates on screen.
 
 ### Testing status
 
@@ -209,6 +210,28 @@ The Windows build passes its automated checks on GitHub (28 core and 9 applicati
 Windows test copy showing clearly labelled fake test products only:
 
 ![Realm Business Tracker test copy showing fake products](assets/realm-business-tracker/01-windows-products.png)
+
+## Realm Budgeting & Realm Budgeting Mobile
+
+**Applications: Realm Budgeting (Windows) and Realm Budgeting Mobile (Android)**<br>
+**Status: PRIVATE DEVELOPMENT — Windows installed and in use; Android companion in early development**<br>
+**Public Release: TBA — Not Yet Announced**
+
+*Personal money, not business money — bills, subscriptions and debts in one place.*
+
+Realm Budgeting is a personal (non-business) Windows desktop app for everyday money: income, regular bills and subscriptions, and debt payoff tracking, with every amount handled to the penny. Its new companion, Realm Budgeting Mobile, is an early-stage Android app that mirrors the same money logic so the same figures can be checked away from the PC.
+
+### Current development features
+
+- Penny-exact money handling shared between the Windows app and the Android companion, so a bill or debt reads the same amount on either device.
+- Weekly, fortnightly, four-weekly, monthly and yearly bill and income schedules, with plain-English frequency labels.
+- Debt payoff tracking: balances, interest rate and a record of payments made against each debt.
+- A month view bringing together income, bills due and money owed for a chosen month.
+- The Android companion (early stage) currently shows four read-only screens — This month, Money in, Money out and Debts — built from the same ported money rules as the Windows app, with its own automated build and test pipeline.
+
+### Testing status
+
+The Windows app is installed and in day-to-day personal use. The Android companion has passed over 110 automated local checks plus an emulator-based database test on GitHub; it has not yet been tried on a real phone, and it does not yet sync with the Windows app or let the owner add or edit entries from the phone — those are planned next. Source code remains in private repositories.
 
 ### 🎮 Willowbrook Games
 **Status: In Development**
@@ -229,7 +252,8 @@ A custom Discord bot project, with further information to be shared as developme
 
 All of these are in development / alpha. None has been released. The work below has passed automated build checks only; it has not been tested on real devices or hardware.
 
-- **Realm Business Tracker** (Windows) and **Realm TCG Stock Manager** (Android): stock apps for a small trading-card business. New work adds permanent RTCGC barcodes and phone-PC sync with a resolve button for conflicts. The Business Tracker now also has an installer in development: it is unsigned, has had automated checks only, has not been tested on real devices and is not yet downloadable. The Business Tracker is now v0.6.3 (Windows Alpha): it adds a rebuilt Secure Registration page with a clear how-it-works guide, a fair waiting list, a weekly limit and privacy-first reviews. Earlier in the v0.6 line it added payout-waiting, so money a platform has not yet paid out is not counted in UC reports, and sales labels can be edited. The latest v0.6.3 work lets a saved sale be corrected instead of cancelled and retyped, with stock counts following the correction, adds a separate delete for rows that should never have existed (recorded in an audit log), and fixes readability on the Quick Entry screens so the dropdown lists and labels stay clear in any Windows theme. The Realm TCG Stock Manager phone app (v0.6.3) now lets you pick the sales channel (TikTok Shop, eBay, Vinted, Car boot or In person), and its payment method list now covers Cash, Card, Bank transfer, PayPal, TikTok Shop, eBay, Vinted and Other on the main sale screen, the TikTok helper screen and the car boot screen.
+- **Realm Business Tracker** (Windows) and **Realm TCG Stock Manager** (Android): stock apps for a small trading-card business. New work adds permanent RTCGC barcodes and phone-PC sync with a resolve button for conflicts. The Business Tracker now also has an installer in development: it is unsigned, has had automated checks only, has not been tested on real devices and is not yet downloadable. The Business Tracker (Windows Alpha) added a rebuilt Secure Registration page with a clear how-it-works guide, a fair waiting list, a weekly limit and privacy-first reviews, then a saved-sale correction and audit-logged delete, then readability fixes on the Quick Entry screens so dropdown lists and labels stay clear in any Windows theme, and most recently a clear current-period indicator on the Universal Credit page showing which assessment period is current and whether it has already been recorded. The Realm TCG Stock Manager phone app is now v0.7.0: it lets you pick the sales channel (TikTok Shop, eBay, Vinted, Car boot or In person), its payment method list covers Cash, Card, Bank transfer, PayPal, TikTok Shop, eBay, Vinted and Other on the main sale screen, the TikTok helper screen and the car boot screen, and it now has a built-in UC report and HMRC guide plus a rebuilt sign-up screen.
+- **Realm Budgeting** (Windows) and **Realm Budgeting Mobile** (Android): personal money apps, separate from the business apps above. Realm Budgeting is installed and in everyday personal use on Windows. Its new Android companion, Realm Budgeting Mobile, has just completed its first development stage: four read-only screens (This month, Money in, Money out, Debts) built from the same ported, penny-exact money rules as the Windows app, with its own automated build and test pipeline on GitHub. It is early-stage: no phone-to-PC sync yet, and entries cannot yet be added or edited from the phone — both are planned next.
 - **Realm DVD Creator** (Windows): in alpha (v1.0.2-alpha line, not released). Now on its main branch: Blu-ray and 4K smart disc fit, ISO verification and a source pre-check. DVD Creator now also has an installer in development: it is unsigned, has had automated checks only, has not been tested on real devices and is not yet downloadable.
 - **Realm Hub** (Windows): in development (v0.2.0 private checkpoint, not a public release). Now on its main branch: PC Monitor, dashboard layouts, a Realm apps strip and early PC Suite tools. Hub now also has an installer in development: it is unsigned, has had automated checks only, has not been tested on real devices and is not yet downloadable. Realm Hub is a Windows PC helper app (cleaner, repair, startup and performance tools) and now includes Realm Shield, a cautious scanner that works alongside Windows Security: it scans for some known risks, can miss threats and is not a replacement for Windows Security. Realm Shield is still in private development and not yet released.
 - **Realm Control Tower** (Windows): v0.1.2-alpha, in development. Now on its main branch: application discovery and management, release readiness, issue tracking, a backup warning and a Software Updates screen. Tower now has an installer in development: it is unsigned, has had automated checks only, has not been tested on real devices and is not yet downloadable. Still alpha and not released.
